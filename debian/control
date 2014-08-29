@@ -3,10 +3,11 @@ Section: misc
 Priority: extra
 Maintainer: Matthias Klose <doko@debian.org>
 Build-Depends: debhelper (>= 5), texinfo, zlib1g-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.4
 
 Package: fastjar
 Architecture: any
+Multi-Arch: foreign
 Depends: dpkg (>= 1.15.4) | install-info, ${shlibs:Depends}, ${misc:Depends}
 Description: Jar creation utility
  Replacement for Suns .jar creation program.  It is written in C

@@ -1,3 +1,15 @@
+fastjar (2:0.98-5) unstable; urgency=low
+
+  * Make the package Multi-Arch foreign.
+
+ -- Matthias Klose <doko@debian.org>  Wed, 05 Jun 2013 22:10:16 +0200
+
+fastjar (2:0.98-4) unstable; urgency=low
+
+  * Build with hardening flags.
+
+ -- Matthias Klose <doko@debian.org>  Tue, 18 Sep 2012 15:17:14 +0200
+
 fastjar (2:0.98-3) unstable; urgency=medium
 
   * Apply patch from the trunk:
